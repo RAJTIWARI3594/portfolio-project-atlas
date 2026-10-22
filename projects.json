@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Sprout Grocery",
+    "repo": "sprout-grocery",
+    "category": "Web apps",
+    "summary": "A responsive grocery storefront demo with a basket, account flows, sample checkout and inventory tools. Catalog and orders are synthetic; it has no real payments or delivery.",
+    "stack": "Flask · SQLite",
+    "tags": [
+      "storefront",
+      "demo",
+      "database"
+    ]
+  },
+  {
+    "name": "Paperlocal PDF",
+    "repo": "paperlocal-pdf",
+    "category": "Web apps",
+    "summary": "Merge PDFs, extract and reorder pages, rotate them, or turn JPG/PNG photos into a PDF locally in the browser.",
+    "stack": "Browser · JavaScript",
+    "tags": [
+      "pdf",
+      "privacy",
+      "documents"
+    ]
+  },
+  {
+    "name": "BlueTrace Security Workbench",
+    "repo": "bluetrace-security-workbench",
+    "category": "Web apps",
+    "summary": "A local defensive log-triage CLI and localhost interface with a searchable timeline, explainable findings and an incident note. Educational use only.",
+    "stack": "Python · Flask",
+    "tags": [
+      "security",
+      "logs",
+      "defensive"
+    ]
+  },
+  {
+    "name": "Fieldnotes Service Desk",
+    "repo": "fieldnotes-service-desk",
+    "category": "Web apps",
+    "summary": "A local issue-triage board with persistent tickets, priority queues, validated status changes, search and status history. Not for public deployment.",
+    "stack": "Python · Flask · SQLite",
+    "tags": [
+      "tickets",
+      "workflow",
+      "local"
+    ]
+  },
+  {
+    "name": "CSV Quality Lab",
+    "repo": "csv-quality-lab",
+    "category": "Data & reporting",
+    "summary": "Profile CSV files, flag malformed rows and common data-quality issues, then export a conservative cleaned copy with an audit report.",
+    "stack": "Python · CSV",
+    "tags": [
+      "csv",
+      "validation",
+      "quality"
+    ]
+  },
+  {
+    "name": "Retail SQL Warehouse",
+    "repo": "retail-sql-warehouse",
+    "category": "Data & reporting",
+    "summary": "Load validated sample sales into a rerunnable SQLite star schema and query revenue, repeat customers and monthly trends.",
+    "stack": "Python · SQLite · SQL",
+    "tags": [
+      "warehouse",
+      "analytics",
+      "sql"
+    ]
+  },
+  {
+    "name": "Excel Invoice Studio",
+    "repo": "excel-invoice-studio",
+    "category": "Data & reporting",
+    "summary": "Turn a validated JSON quotation into an editable invoice workbook with line formulas, tax totals, payment summary and print-ready layout.",
+    "stack": "Python · Excel",
+    "tags": [
+      "spreadsheet",
+      "invoice",
+      "formulas"
+    ]
+  },
+  {
+    "name": "Retail Pulse — Excel Sales Dashboard",
+    "repo": "excel-sales-dashboard",
+    "category": "Data & reporting",
+    "summary": "A synthetic 720-order workbook with a region selector, monthly sales/profit chart, category comparison and transparent row-level formulas.",
+    "stack": "Excel · Python",
+    "tags": [
+      "spreadsheet",
+      "dashboard",
+      "synthetic"
+    ]
+  },
+  {
+    "name": "Retail Pulse — Power BI Kit",
+    "repo": "powerbi-retail-analytics",
+    "category": "Data & reporting",
+    "summary": "Synthetic retail data, Power Query, DAX measures, theme and report-building guide. This is an implementation kit, not a finished PBIX/PBIP report.",
+    "stack": "Power Query · DAX",
+    "tags": [
+      "power bi",
+      "analytics",
+      "kit"
+    ]
+  },
+  {
+    "name": "Stockroom Ledger",
+    "repo": "stockroom-ledger",
+    "category": "Everyday tools",
+    "summary": "A transactional local stock ledger for receiving, issuing and transferring items, with shortage protection, audit history and CSV export.",
+    "stack": "Python · SQLite",
+    "tags": [
+      "inventory",
+      "ledger",
+      "cli"
+    ]
+  },
+  {
+    "name": "Docs Link Auditor",
+    "repo": "docs-link-auditor",
+    "category": "Everyday tools",
+    "summary": "Check a local Markdown tree for missing files, broken relative links and missing heading anchors. External links are skipped, never fetched.",
+    "stack": "Python · Markdown",
+    "tags": [
+      "documentation",
+      "links",
+      "cli"
+    ]
+  },
+  {
+    "name": "Java Library Desk",
+    "repo": "java-library-desk",
+    "category": "Everyday tools",
+    "summary": "A local lending desk for registering books, checkout, returns, availability and loan history, with an atomic file-backed ledger.",
+    "stack": "Java · CLI",
+    "tags": [
+      "library",
+      "lending",
+      "local"
+    ]
+  },
+  {
+    "name": "Java Route Planner",
+    "repo": "java-route-planner",
+    "category": "Everyday tools",
+    "summary": "Find shortest travel-time paths through a synthetic campus graph and optionally avoid closed locations. It is not GPS or live navigation.",
+    "stack": "Java · Dijkstra",
+    "tags": [
+      "routing",
+      "graph",
+      "campus"
+    ]
+  },
+  {
+    "name": "Jarvis Local",
+    "repo": "jarvis-local-assistant",
+    "category": "Everyday tools",
+    "summary": "An offline deterministic command desk for notes, tasks, date/time and safe arithmetic, with a CLI and loopback web interface. Not generative AI or voice control.",
+    "stack": "Python · SQLite",
+    "tags": [
+      "offline",
+      "notes",
+      "tasks"
+    ]
+  },
+  {
+    "name": "Recall Study Cards",
+    "repo": "recall-study-cards",
+    "category": "Study & planning",
+    "summary": "An offline-first browser flashcard desk with due dates, review grades, deck editing and validated JSON backup/import.",
+    "stack": "JavaScript · local storage",
+    "tags": [
+      "flashcards",
+      "study",
+      "offline"
+    ]
+  },
+  {
+    "name": "Study Sprint Planner",
+    "repo": "study-sprint-planner",
+    "category": "Study & planning",
+    "summary": "Build a capacity-aware coursework timetable, flag work that cannot fit before deadlines, and export a printable plan plus calendar file.",
+    "stack": "Python · HTML · ICS",
+    "tags": [
+      "planning",
+      "deadlines",
+      "calendar"
+    ]
+  }
+]
