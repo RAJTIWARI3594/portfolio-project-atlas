@@ -21,7 +21,8 @@
       "pdf",
       "privacy",
       "documents"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/paperlocal-pdf/"
   },
   {
     "name": "BlueTrace Security Workbench",
@@ -57,19 +58,21 @@
       "webhooks",
       "reliability",
       "simulation"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/webhook-reliability-lab/"
   },
   {
     "name": "CSV Quality Lab",
     "repo": "csv-quality-lab",
     "category": "Data & reporting",
-    "summary": "Profile CSV files, flag malformed rows and common data-quality issues, then export a conservative cleaned copy with an audit report.",
+    "summary": "Profile CSV files, flag malformed rows and common data-quality issues, then export a conservative cleaned copy with an audit report. The new browser edition runs locally in your tab; it does not upload files.",
     "stack": "Python · CSV",
     "tags": [
       "csv",
       "validation",
       "quality"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/csv-quality-lab/"
   },
   {
     "name": "Retail SQL Warehouse",
@@ -111,61 +114,66 @@
     "name": "Retail Pulse — Power BI Kit",
     "repo": "powerbi-retail-analytics",
     "category": "Data & reporting",
-    "summary": "Synthetic retail data, Power Query, DAX measures, theme and report-building guide. This is an implementation kit, not a finished PBIX/PBIP report.",
+    "summary": "Synthetic retail data, Power Query, DAX measures, theme and report-building guide. This is an implementation kit, not a finished PBIX/PBIP report. A live HTML reference preview is available; it is not a native Power BI report.",
     "stack": "Power Query · DAX",
     "tags": [
       "power bi",
       "analytics",
       "kit"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/powerbi-retail-analytics/"
   },
   {
     "name": "Stockroom Ledger",
     "repo": "stockroom-ledger",
     "category": "Everyday tools",
-    "summary": "A transactional local stock ledger for receiving, issuing and transferring items, with shortage protection, audit history and CSV export.",
+    "summary": "A transactional local stock ledger for receiving, issuing and transferring items, with shortage protection, audit history and CSV export. The browser edition stores a separate demo ledger locally, not in a shared warehouse.",
     "stack": "Python · SQLite",
     "tags": [
       "inventory",
       "ledger",
       "cli"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/stockroom-ledger/"
   },
   {
     "name": "Docs Link Auditor",
     "repo": "docs-link-auditor",
     "category": "Everyday tools",
-    "summary": "Check a local Markdown tree for missing files, broken relative links and missing heading anchors. External links are skipped, never fetched.",
+    "summary": "Check a local Markdown tree for missing files, broken relative links and missing heading anchors. External links are skipped, never fetched. The browser edition checks selected folders locally; it does not fetch external links.",
     "stack": "Python · Markdown",
     "tags": [
       "documentation",
       "links",
       "cli"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/docs-link-auditor/"
   },
   {
     "name": "Java Library Desk",
     "repo": "java-library-desk",
     "category": "Everyday tools",
-    "summary": "A local lending desk for registering books, checkout, returns, availability and loan history, with an atomic file-backed ledger.",
+    "summary": "A local lending desk for registering books, checkout, returns, availability and loan history, with an atomic file-backed ledger. Its browser edition stores a separate demo ledger on this device only.",
     "stack": "Java · CLI",
     "tags": [
       "library",
       "lending",
       "local"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/java-library-desk/"
   },
   {
     "name": "Java Route Planner",
     "repo": "java-route-planner",
     "category": "Everyday tools",
-    "summary": "Find shortest travel-time paths through a synthetic campus graph and optionally avoid closed locations. It is not GPS or live navigation.",
+    "summary": "Find shortest travel-time paths through a synthetic campus graph and optionally avoid closed locations. It is not GPS or live navigation. The browser edition is a synthetic campus demo, not GPS navigation.",
     "stack": "Java · Dijkstra",
     "tags": [
       "routing",
       "graph",
       "campus"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/java-route-planner/"
   },
   {
     "name": "Jarvis Local",
@@ -189,18 +197,20 @@
       "flashcards",
       "study",
       "offline"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/recall-study-cards/"
   },
   {
     "name": "Study Sprint Planner",
     "repo": "study-sprint-planner",
     "category": "Study & planning",
-    "summary": "Build a capacity-aware coursework timetable, flag work that cannot fit before deadlines, and export a printable plan plus calendar file.",
+    "summary": "Build a capacity-aware coursework timetable, flag work that cannot fit before deadlines, and export a printable plan plus calendar file. The browser edition saves tasks in this browser and does not send reminders.",
     "stack": "Python · HTML · ICS",
     "tags": [
       "planning",
       "deadlines",
       "calendar"
-    ]
+    ],
+    "demo": "https://rajtiwari3594.github.io/study-sprint-planner/"
   }
 ]

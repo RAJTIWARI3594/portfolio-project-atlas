@@ -22,3 +22,13 @@ test('no star counts, testimonials, or personal claims are included in project d
   const blob = JSON.stringify(projects).toLowerCase();
   for (const term of ['stars','testimonial','years of experience','hired at']) assert.ok(!blob.includes(term));
 });
+
+test('live demo links use the owner Pages domain and map to their project', () => {
+  for (const p of projects.filter(p => p.demo)) {
+    assert.equal(p.demo, `https://rajtiwari3594.github.io/${p.repo}/`);
+  }
+});
+
+test('ten project entries expose verified web demos', () => {
+  assert.equal(projects.filter(p => p.demo).length, 10);
+});
