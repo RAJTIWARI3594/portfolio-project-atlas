@@ -14,7 +14,7 @@ Then open <http://127.0.0.1:8080>. The site is static and can also be hosted by 
 
 ## What is included
 
-- 16 direct links to public repositories verified against GitHub repository metadata and README content on 22 October 2026.
+- 17 direct links to public repositories. Sixteen were verified against GitHub repository metadata and README content on 22 October 2026; Webhook Reliability Lab was checked against its public repository and README on 28 October 2026.
 - Accessible search and category filters, keyboard shortcut `/`, Escape to clear search, live result count, empty state, skip link and visible focus styles.
 - Responsive card layout for narrow and wide screens; reduced-motion support.
 - No runtime dependencies, external APIs, analytics, tracking, or external fonts.

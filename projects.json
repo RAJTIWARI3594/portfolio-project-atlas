@@ -48,6 +48,18 @@
     ]
   },
   {
+    "name": "Webhook Reliability Lab",
+    "repo": "webhook-reliability-lab",
+    "category": "Web apps",
+    "summary": "Explore delivery retries, bounded exponential backoff, duplicate-event idempotency and local HMAC signatures in a deterministic browser simulator; it sends no real webhooks or API requests.",
+    "stack": "JavaScript · Web Crypto · Node tests",
+    "tags": [
+      "webhooks",
+      "reliability",
+      "simulation"
+    ]
+  },
+  {
     "name": "CSV Quality Lab",
     "repo": "csv-quality-lab",
     "category": "Data & reporting",
